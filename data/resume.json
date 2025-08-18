@@ -1,0 +1,474 @@
+[
+  {
+    "person_id": "CAND001",
+    "name": "Alice Johnson",
+    "email": "alice.johnson@example.com",
+    "phone": "+1-555-123-4567",
+    "location": "San Francisco, USA",
+    "social_profiles": {
+      "linkedin": "https://linkedin.com/in/alicejohnson",
+      "github": "https://github.com/alice-code",
+      "leetcode": "https://leetcode.com/alice_j"
+    },
+    "education": [
+      {
+        "degree": "B.Tech in Computer Science",
+        "institution": "Stanford University",
+        "year_of_graduation": 2021,
+        "cgpa": 3.85
+      }
+    ],
+    "experience": [
+      {
+        "company": "TechCorp Inc.",
+        "role": "Software Engineer",
+        "start_date": "2021-07",
+        "YOE" : "2",
+        "end_date": "2023-08",
+        "responsibilities": [
+          "Developed scalable backend services in Python and Django",
+          "Optimized SQL queries, reducing API response time by 40%"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "title": "Customer Churn Prediction",
+        "description": "Built an ML pipeline for predicting churn using Scikit-learn.",
+        "technologies": ["Python", "Pandas", "Scikit-learn"]
+      }
+    ],
+    "research_publications": [],
+    "skills": ["Python", "Machine Learning", "SQL", "JavaScript", "Django"]
+  },
+  {
+    "person_id": "CAND002",
+    "name": "Ravi Sharma",
+    "email": "ravi.sharma@example.com",
+    "phone": "+91-98765-43210",
+    "location": "Bangalore, India",
+    "social_profiles": {
+      "linkedin": "https://linkedin.com/in/ravisharma",
+      "github": "https://github.com/ravi-ai",
+      "leetcode": "https://leetcode.com/ravi_sharma"
+    },
+    "education": [
+      {
+        "degree": "M.Sc. in Artificial Intelligence",
+        "institution": "IISc Bangalore",
+        "year_of_graduation": 2022,
+        "cgpa": 9.1
+      }
+    ],
+    "experience": [
+      {
+        "company": "NextGen AI",
+        "role": "Machine Learning Engineer",
+        "start_date": "2022-01",
+        "YOE" : "1",
+        "end_date": "Present",
+        "responsibilities": [
+          "Deployed ML models into production using TensorFlow and Flask",
+          "Mentored junior engineers on ML best practices"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "title": "Multilingual Chatbot",
+        "description": "Developed a chatbot using Rasa and Transformers.",
+        "technologies": ["Python", "Rasa", "Transformers"]
+      }
+    ],
+    "research_publications": [
+      {
+        "title": "Low-Resource NLP with Transformers",
+        "publication": "ACL 2022",
+        "year": 2022,
+        "doi": "10.18653/v1/acl-2022-ravi"
+      }
+    ],
+    "skills": ["Python", "Deep Learning", "TensorFlow", "NLP", "Rasa"]
+  },
+  {
+    "person_id": "CAND003",
+    "name": "Maria Gonzalez",
+    "email": "maria.g@example.com",
+    "phone": "+34-678-123-456",
+    "location": "Madrid, Spain",
+    "social_profiles": {
+      "linkedin": "https://linkedin.com/in/mariagonzalez",
+      "github": "https://github.com/maria-g",
+      "leetcode": "https://leetcode.com/maria_g"
+    },
+    "education": [
+      {
+        "degree": "B.Sc. in Information Security",
+        "institution": "Complutense University",
+        "year_of_graduation": 2020,
+        "cgpa": 3.6
+      }
+    ],
+    "experience": [
+      {
+        "company": "SecureNet",
+        "role": "Cybersecurity Analyst",
+        "start_date": "2020-06",
+        "YOE" : "3",
+        "end_date": "Present",
+        "responsibilities": [
+          "Performed penetration testing and vulnerability assessments",
+          "Developed incident response strategies for financial clients"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "title": "Malware Detection System",
+        "description": "Implemented anomaly detection for malware in Python.",
+        "technologies": ["Python", "Scikit-learn", "ELK Stack"]
+      },
+      {
+        "title": "Secure Login Framework",
+        "description": "Built 2FA login system for enterprise apps.",
+        "technologies": ["Java", "Spring Boot"]
+      }
+    ],
+    "research_publications": [],
+    "skills": ["Cybersecurity", "Penetration Testing", "Python", "ELK", "Networking"]
+  },
+  {
+    "person_id": "CAND004",
+    "name": "David Kim",
+    "email": "david.kim@example.com",
+    "phone": "+82-10-1234-5678",
+    "location": "Seoul, South Korea",
+    "social_profiles": {
+      "linkedin": "https://linkedin.com/in/davidkim",
+      "github": "https://github.com/davidkim",
+      "leetcode": "https://leetcode.com/david_k"
+    },
+    "education": [
+      {
+        "degree": "PhD in Robotics",
+        "institution": "KAIST",
+        "year_of_graduation": 2023,
+        "cgpa": 9.4
+      }
+    ],
+    "experience": [
+      {
+        "company": "RoboTech Labs",
+        "role": "Robotics Research Scientist",
+        "start_date": "2019-01",
+        "YOE" : "4",
+        "end_date": "Present",
+        "responsibilities": [
+          "Designed robotic motion planning algorithms",
+          "Led a research team on humanoid robot navigation"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "title": "Autonomous Drone Navigation",
+        "description": "Developed real-time SLAM system for drones.",
+        "technologies": ["ROS", "C++", "Python", "OpenCV"]
+      }
+    ],
+    "research_publications": [
+      {
+        "title": "Vision-Based SLAM for Autonomous Robots",
+        "publication": "ICRA 2022",
+        "year": 2022,
+        "doi": "10.1109/ICRA.2022.9999"
+      },
+      {
+        "title": "Deep RL for Humanoid Locomotion",
+        "publication": "Nature Robotics",
+        "year": 2023,
+        "doi": "10.1038/nr-2023-david"
+      }
+    ],
+    "skills": ["Robotics", "Computer Vision", "ROS", "Python", "Deep RL"]
+  },
+  {
+    "person_id": "CAND005",
+    "name": "Sophia Lee",
+    "email": "sophia.lee@example.com",
+    "phone": "+44-7700-123456",
+    "location": "London, UK",
+    "social_profiles": {
+      "linkedin": "https://linkedin.com/in/sophialee",
+      "github": "https://github.com/sophialee",
+      "leetcode": "https://leetcode.com/sophia_l"
+    },
+    "education": [
+      {
+        "degree": "B.Sc. in Bioinformatics",
+        "institution": "University College London",
+        "year_of_graduation": 2021,
+        "cgpa": 3.7
+      }
+    ],
+    "experience": [],
+    "projects": [
+      {
+        "title": "Gene Sequence Analyzer",
+        "description": "Built Python tool for analyzing genome sequences.",
+        "technologies": ["Python", "Biopython"]
+      }
+    ],
+    "research_publications": [
+      {
+        "title": "Sequence Alignment Optimization",
+        "publication": "Bioinformatics Journal",
+        "year": 2021,
+        "doi": "10.1093/bioinformatics/sophia2021"
+      }
+    ],
+    "skills": ["Bioinformatics", "Python", "Data Analysis", "Genomics"]
+  },
+  {
+    "person_id": "CAND006",
+    "name": "Liam O’Connor",
+    "email": "liam.oconnor@example.com",
+    "phone": "+353-89-123-4567",
+    "location": "Dublin, Ireland",
+    "social_profiles": {
+      "linkedin": "https://linkedin.com/in/liamoconnor",
+      "github": "https://github.com/liamoc",
+      "leetcode": "https://leetcode.com/liam_oc"
+    },
+    "education": [
+      {
+        "degree": "B.Eng in Cloud Computing",
+        "institution": "Trinity College Dublin",
+        "year_of_graduation": 2019,
+        "cgpa": 3.5
+      }
+    ],
+    "experience": [
+      {
+        "company": "CloudX",
+        "role": "Cloud Engineer",
+        "start_date": "2019-06",
+        "YOE" : "4",
+        "end_date": "Present",
+        "responsibilities": [
+          "Designed cloud infrastructure using AWS",
+          "Automated CI/CD pipelines with Docker and Kubernetes"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "title": "Serverless File Storage",
+        "description": "Implemented a scalable file storage using AWS Lambda and S3.",
+        "technologies": ["AWS", "Python", "Lambda", "S3"]
+      }
+    ],
+    "research_publications": [],
+    "skills": ["AWS", "Kubernetes", "DevOps", "Python", "Docker"]
+  },
+  {
+    "person_id": "CAND007",
+    "name": "Chen Wei",
+    "email": "chen.wei@example.com",
+    "phone": "+86-138-1234-5678",
+    "location": "Shanghai, China",
+    "social_profiles": {
+      "linkedin": "https://linkedin.com/in/chenwei",
+      "github": "https://github.com/chenwei",
+      "leetcode": "https://leetcode.com/chen_w"
+    },
+    "education": [
+      {
+        "degree": "M.Tech in Computer Vision",
+        "institution": "Tsinghua University",
+        "year_of_graduation": 2021,
+        "cgpa": 8.9
+      }
+    ],
+    "experience": [
+      {
+        "company": "VisionAI",
+        "role": "Computer Vision Engineer",
+        "start_date": "2021-08",
+        "YOE" : "2",
+        "end_date": "Present",
+        "responsibilities": [
+          "Built face recognition models for security applications",
+          "Optimized CNN architectures for edge devices"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "title": "Real-Time Face Recognition",
+        "description": "Optimized CNNs for mobile devices with TensorRT.",
+        "technologies": ["Python", "TensorFlow", "OpenCV"]
+      }
+    ],
+    "research_publications": [
+      {
+        "title": "Lightweight CNNs for Edge Devices",
+        "publication": "CVPR 2021",
+        "year": 2021,
+        "doi": "10.1109/CVPR.2021.chen"
+      }
+    ],
+    "skills": ["Computer Vision", "Deep Learning", "OpenCV", "TensorFlow", "Python"]
+  },
+  {
+    "person_id": "CAND008",
+    "name": "Elena Petrova",
+    "email": "elena.petrova@example.com",
+    "phone": "+7-921-123-4567",
+    "location": "Moscow, Russia",
+    "social_profiles": {
+      "linkedin": "https://linkedin.com/in/elenapetrova",
+      "github": "https://github.com/elenap",
+      "leetcode": "https://leetcode.com/elena_p"
+    },
+    "education": [
+      {
+        "degree": "PhD in Natural Language Processing",
+        "institution": "Moscow State University",
+        "year_of_graduation": 2022,
+        "cgpa": 9.6
+      }
+    ],
+    "experience": [
+      {
+        "company": "LinguaTech",
+        "role": "NLP Research Scientist",
+        "start_date": "2018-09",
+        "YOE" : "2",
+        "end_date": "Present",
+        "responsibilities": [
+          "Developed multilingual BERT models",
+          "Published multiple NLP papers in top-tier conferences"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "title": "Multilingual Translation Engine",
+        "description": "Trained transformer-based translation models for 12 languages.",
+        "technologies": ["Python", "Transformers", "PyTorch"]
+      }
+    ],
+    "research_publications": [
+      {
+        "title": "Zero-Shot Multilingual Transfer in NLP",
+        "publication": "EMNLP 2020",
+        "year": 2020,
+        "doi": "10.18653/v1/elena2020"
+      },
+      {
+        "title": "Scaling Transformers for Cross-Lingual Understanding",
+        "publication": "ACL 2021",
+        "year": 2021,
+        "doi": "10.18653/v1/elena2021"
+      }
+    ],
+    "skills": ["NLP", "Transformers", "PyTorch", "Deep Learning", "Python"]
+  },
+  {
+    "person_id": "CAND009",
+    "name": "Omar Hassan",
+    "email": "omar.hassan@example.com",
+    "phone": "+20-100-123-4567",
+    "location": "Cairo, Egypt",
+    "social_profiles": {
+      "linkedin": "https://linkedin.com/in/omarhassan",
+      "github": "https://github.com/omarh",
+      "leetcode": "https://leetcode.com/omar_h"
+    },
+    "education": [
+      {
+        "degree": "B.Sc. in Embedded Systems",
+        "institution": "Cairo University",
+        "year_of_graduation": 2020,
+        "cgpa": 3.4
+      }
+    ],
+    "experience": [
+      {
+        "company": "ChipWorks",
+        "role": "Embedded Systems Engineer",
+        "start_date": "2020-08",
+        "YOE" : "1",
+        "end_date": "Present",
+        "responsibilities": [
+          "Designed firmware for ARM-based microcontrollers",
+          "Worked on IoT device integration"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "title": "Smart Home Controller",
+        "description": "Built IoT hub for controlling home appliances.",
+        "technologies": ["C", "C++", "Arduino", "MQTT"]
+      }
+    ],
+    "research_publications": [],
+    "skills": ["Embedded Systems", "C", "C++", "IoT", "Arduino"]
+  },
+  {
+    "person_id": "CAND010",
+    "name": "Hannah Müller",
+    "email": "hannah.muller@example.com",
+    "phone": "+49-151-12345678",
+    "location": "Berlin, Germany",
+    "social_profiles": {
+      "linkedin": "https://linkedin.com/in/hannahmuller",
+      "github": "https://github.com/hannahm",
+      "leetcode": "https://leetcode.com/hannah_m"
+    },
+    "education": [
+      {
+        "degree": "M.Sc. in Data Science",
+        "institution": "Technical University of Berlin",
+        "year_of_graduation": 2021,
+        "cgpa": 8.7
+      }
+    ],
+    "experience": [
+      {
+        "company": "DataInsights",
+        "role": "Data Scientist",
+        "start_date": "2021-07",
+        "YOE" : "2",
+        "end_date": "Present",
+        "responsibilities": [
+          "Developed recommendation systems using collaborative filtering",
+          "Performed predictive analytics on customer data"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "title": "Movie Recommendation Engine",
+        "description": "Collaborative filtering model trained on large dataset.",
+        "technologies": ["Python", "Pandas", "Scikit-learn"]
+      },
+      {
+        "title": "Retail Sales Forecasting",
+        "description": "Time-series forecasting with XGBoost and Prophet.",
+        "technologies": ["Python", "XGBoost", "Prophet"]
+      }
+    ],
+    "research_publications": [
+      {
+        "title": "Fairness in Recommendation Systems",
+        "publication": "KDD 2021",
+        "year": 2021,
+        "doi": "10.1145/hannah2021"
+      }
+    ],
+    "skills": ["Data Science", "Python", "Machine Learning", "XGBoost", "Prophet"]
+  }
+]

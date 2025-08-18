@@ -1,0 +1,72 @@
+[
+  {
+    "person_id": "CAND001",
+    "username": "alice_j",
+    "problems_solved": 280,
+    "contest_rating": 1780,
+    "strengths": ["Dynamic Programming", "Arrays", "Graphs"]
+  },
+  {
+    "person_id": "CAND002",
+    "username": "ravi_sharma",
+    "problems_solved": 500,
+    "contest_rating": 2100,
+    "strengths": ["NLP-related problems", "DP", "HashMaps"]
+  },
+  {
+    "person_id": "CAND003",
+    "username": null,
+    "problems_solved": 0,
+    "contest_rating": null,
+    "strengths": []
+  },
+  {
+    "person_id": "CAND004",
+    "username": "david_k",
+    "problems_solved": 150,
+    "contest_rating": 1650,
+    "strengths": ["Graphs", "Math", "Simulation"]
+  },
+  {
+    "person_id": "CAND005",
+    "username": null,
+    "problems_solved": 0,
+    "contest_rating": null,
+    "strengths": []
+  },
+  {
+    "person_id": "CAND006",
+    "username": "liam_oc",
+    "problems_solved": 220,
+    "contest_rating": 1720,
+    "strengths": ["Greedy", "Strings"]
+  },
+  {
+    "person_id": "CAND007",
+    "username": "chen_w",
+    "problems_solved": 350,
+    "contest_rating": 1900,
+    "strengths": ["Computer Vision related", "DP", "Arrays"]
+  },
+  {
+    "person_id": "CAND008",
+    "username": "elena_p",
+    "problems_solved": 400,
+    "contest_rating": 2000,
+    "strengths": ["NLP tasks", "Graphs", "Greedy"]
+  },
+  {
+    "person_id": "CAND009",
+    "username": null,
+    "problems_solved": 0,
+    "contest_rating": null,
+    "strengths": []
+  },
+  {
+    "person_id": "CAND010",
+    "username": "hannah_m",
+    "problems_solved": 180,
+    "contest_rating": 1600,
+    "strengths": ["Data Structures", "Sorting"]
+  }
+]

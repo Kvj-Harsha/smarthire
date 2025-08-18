@@ -1,0 +1,90 @@
+[
+  {
+    "person_id": "CAND001",
+    "headline": "Software Engineer @ TechCorp | Backend & ML Enthusiast",
+    "skills": ["Python", "Django", "SQL", "Machine Learning"],
+    "endorsements": {"Python": 12, "Django": 8, "SQL": 6},
+    "jobs": [
+      {"company": "TechCorp Inc.", "title": "Software Engineer", "years": "2021-2023"}
+    ]
+  },
+  {
+    "person_id": "CAND002",
+    "headline": "Machine Learning Engineer @ NextGen AI",
+    "skills": ["Deep Learning", "TensorFlow", "NLP", "Python"],
+    "endorsements": {"Deep Learning": 10, "TensorFlow": 6},
+    "jobs": [
+      {"company": "NextGen AI", "title": "ML Engineer", "years": "2022-Present"}
+    ]
+  },
+  {
+    "person_id": "CAND003",
+    "headline": "Cybersecurity Analyst @ SecureNet",
+    "skills": ["Cybersecurity", "Penetration Testing", "Python", "Networking"],
+    "endorsements": {"Cybersecurity": 14, "Penetration Testing": 9},
+    "jobs": [
+      {"company": "SecureNet", "title": "Analyst", "years": "2020-Present"}
+    ]
+  },
+  {
+    "person_id": "CAND004",
+    "headline": "PhD Robotics | Research Scientist @ RoboTech Labs",
+    "skills": ["Robotics", "ROS", "Deep RL", "Computer Vision"],
+    "endorsements": {"Robotics": 20, "ROS": 10},
+    "jobs": [
+      {"company": "RoboTech Labs", "title": "Research Scientist", "years": "2019-Present"}
+    ]
+  },
+  {
+    "person_id": "CAND005",
+    "headline": "Bioinformatics Graduate | Research Assistant",
+    "skills": ["Bioinformatics", "Genomics", "Python"],
+    "endorsements": {"Bioinformatics": 6},
+    "jobs": []
+  },
+  {
+    "person_id": "CAND006",
+    "headline": "Cloud Engineer @ CloudX",
+    "skills": ["AWS", "Kubernetes", "DevOps"],
+    "endorsements": {"AWS": 9, "Kubernetes": 4},
+    "jobs": [
+      {"company": "CloudX", "title": "Cloud Engineer", "years": "2019-Present"}
+    ]
+  },
+  {
+    "person_id": "CAND007",
+    "headline": "Computer Vision Engineer @ VisionAI",
+    "skills": ["Computer Vision", "Deep Learning", "TensorFlow"],
+    "endorsements": {"Computer Vision": 8},
+    "jobs": [
+      {"company": "VisionAI", "title": "Engineer", "years": "2021-Present"}
+    ]
+  },
+  {
+    "person_id": "CAND008",
+    "headline": "PhD NLP | Research Scientist @ LinguaTech",
+    "skills": ["NLP", "Transformers", "PyTorch"],
+    "endorsements": {"NLP": 18, "Transformers": 10},
+    "jobs": [
+      {"company": "LinguaTech", "title": "Research Scientist", "years": "2018-Present"}
+    ]
+  },
+  {
+    "person_id": "CAND009",
+    "headline": "Embedded Systems Engineer @ ChipWorks",
+    "skills": ["Embedded Systems", "IoT", "C++"],
+    "endorsements": {"Embedded Systems": 5},
+    "jobs": [
+      {"company": "ChipWorks", "title": "Embedded Engineer", "years": "2020-Present"}
+    ]
+  },
+  {
+    "person_id": "CAND010",
+    "headline": "Data Scientist @ DataInsights",
+    "skills": ["Data Science", "XGBoost", "Python"],
+    "endorsements": {"Data Science": 7, "Python": 6},
+    "jobs": [
+      {"company": "DataInsights", "title": "Data Scientist", "years": "2021-Present"}
+    ]
+  }
+]

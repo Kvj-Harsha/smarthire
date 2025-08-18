@@ -1,0 +1,52 @@
+[
+  {
+    "job_id": "JD001",
+    "title": "AI/ML Intern",
+    "department": "AI & Machine Learning",
+    "experience_required_years": 0,
+    "education": ["B.Tech in Computer Science", "B.Sc in Data Science"],
+    "skills_required": ["Python", "Machine Learning", "Pandas", "NumPy", "Scikit-learn"],
+    "preferred_skills": ["Deep Learning", "PyTorch", "TensorFlow", "Data Visualization"],
+    "job_description": "Internship to assist in building ML pipelines, developing predictive models, and performing data analysis.",
+    "responsibilities": [
+      "Assist in data preprocessing and feature engineering",
+      "Build and evaluate machine learning models",
+      "Collaborate with senior ML engineers on research and development tasks"
+    ],
+    "location": "Remote / Hybrid"
+  },
+  {
+    "job_id": "JD002",
+    "title": "Senior DevOps Engineer",
+    "department": "Engineering / DevOps",
+    "experience_required_years": 5,
+    "education": ["B.Tech in Computer Science", "M.Tech in Computer Science"],
+    "skills_required": ["AWS", "Docker", "Kubernetes", "CI/CD", "Linux"],
+    "preferred_skills": ["Terraform", "Ansible", "Python/Shell scripting", "Monitoring & Logging"],
+    "job_description": "Responsible for designing, implementing, and maintaining CI/CD pipelines, cloud infrastructure, and deployment automation.",
+    "responsibilities": [
+      "Maintain and improve cloud infrastructure",
+      "Implement CI/CD pipelines for multiple teams",
+      "Monitor system performance and reliability",
+      "Collaborate with development teams to optimize deployments"
+    ],
+    "location": "Bangalore, India"
+  },
+  {
+    "job_id": "JD003",
+    "title": "Scrum Master",
+    "department": "Project Management / Agile",
+    "experience_required_years": 3,
+    "education": ["B.Tech in any field", "MBA Preferred"],
+    "skills_required": ["Agile", "Scrum", "Project Management", "Stakeholder Communication"],
+    "preferred_skills": ["JIRA", "Confluence", "Kanban", "Leadership & Mentoring"],
+    "job_description": "Lead Agile teams, facilitate Scrum ceremonies, and ensure successful delivery of projects.",
+    "responsibilities": [
+      "Coach teams on Agile best practices",
+      "Remove blockers and improve team efficiency",
+      "Facilitate sprint planning, retrospectives, and daily stand-ups",
+      "Communicate with stakeholders on project progress"
+    ],
+    "location": "Remote / Onsite"
+  }
+]
