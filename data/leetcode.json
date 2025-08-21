@@ -1,10 +1,10 @@
 [
   {
     "person_id": "CAND001",
-    "username": "alice_j",
-    "problems_solved": 280,
-    "contest_rating": 1780,
-    "strengths": ["Dynamic Programming", "Arrays", "Graphs"]
+    "username": "cs23b1034",
+    "problems_solved": 216,
+    "contest_rating": 1500,
+    "strengths": ["Dynamic Programming", "Arrays", "Strings", "Math", "Sorting"]
   },
   {
     "person_id": "CAND002",

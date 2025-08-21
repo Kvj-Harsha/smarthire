@@ -1,11 +1,12 @@
 [
   {
     "person_id": "CAND001",
-    "headline": "Software Engineer @ TechCorp | Backend & ML Enthusiast",
+    "headline": "Aspiring Cloud & AI/ML Engineer | Azure Certified (DP-900) • MLOps • GenAI | AI Developer Intern @ VISWAM AI | Pre-final Year, IIITR | Ex-PR Head",
     "skills": ["Python", "Django", "SQL", "Machine Learning"],
     "endorsements": {"Python": 12, "Django": 8, "SQL": 6},
     "jobs": [
-      {"company": "TechCorp Inc.", "title": "Software Engineer", "years": "2021-2023"}
+      {"company": "VISWAM AI", "title": "AI Developer Intern", "years": "May 2025- August 2025"},
+      {"company": "IIIT Raichur", "title": "Website Developer", "years": "2024-2025"}
     ]
   },
   {

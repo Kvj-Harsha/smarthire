@@ -1,10 +1,42 @@
 [
   {
     "person_id": "CAND001",
-    "text": "During my last project, I collaborated with a team of 5 engineers to design a scalable microservices architecture. I often facilitated communication between backend and frontend teams, resolving blockers and ensuring deadlines were met. I enjoy brainstorming solutions to complex problems and mentoring junior members."
+    "text": "During my last project, I collaborated with a team of 5 engineers to design on fine-tuning a machine learning model. I often facilitated communication between backend and frontend teams, resolving blockers and ensuring deadlines were met. I enjoy brainstorming solutions to complex problems and mentoring junior members."
   },
   {
     "person_id": "CAND002",
     "text": "I led a data migration project where I had to troubleshoot multiple issues in the pipeline. I made sure to document every step and communicate progress regularly to stakeholders. I thrive in problem-solving tasks and like to work in close collaboration with my teammates."
+  },
+  {
+    "person_id": "CAND003",
+    "text": "As a software developer, I contributed to building a scalable API for a fintech application. I coordinated with QA to automate test cases and improve deployment reliability. I value clear communication and continuous learning."
+  },
+  {
+    "person_id": "CAND004",
+    "text": "I managed a cross-functional team to deliver a web platform for healthcare providers. My role involved sprint planning, code reviews, and mentoring interns. I am passionate about creating user-friendly solutions."
+  },
+  {
+    "person_id": "CAND005",
+    "text": "I worked on optimizing database queries for a logistics company, reducing latency by 40%. I collaborated with data analysts to understand requirements and deliver actionable insights. I enjoy tackling performance bottlenecks."
+  },
+  {
+    "person_id": "CAND006",
+    "text": "I developed a mobile app for e-commerce, integrating payment gateways and push notifications. I regularly participated in design discussions and helped onboard new team members. I like working in agile environments."
+  },
+  {
+    "person_id": "CAND007",
+    "text": "I was responsible for migrating legacy code to a modern framework in a SaaS product. I worked closely with product managers to prioritize features and ensure customer satisfaction. I am detail-oriented and proactive."
+  },
+  {
+    "person_id": "CAND008",
+    "text": "I contributed to an open-source project, fixing bugs and adding documentation. I collaborated with developers worldwide and learned best practices in code quality. I value teamwork and knowledge sharing."
+  },
+  {
+    "person_id": "CAND009",
+    "text": "I led the automation of deployment pipelines using CI/CD tools for a media company. I trained colleagues on DevOps practices and monitored system health. I enjoy improving development workflows."
+  },
+  {
+    "person_id": "CAND010",
+    "text": "I designed and implemented RESTful APIs for a travel booking platform. I worked with UI/UX designers to enhance user experience and participated in customer feedback sessions. I am committed to delivering robust solutions."
   }
 ]

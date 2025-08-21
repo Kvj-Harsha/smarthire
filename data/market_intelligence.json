@@ -2,20 +2,19 @@
   "updated_at": "2025-08-10",
   "roles": [
     {
-  "role": "AI/ML Intern",
-  "location": "Remote / Hybrid",
-  "seniority": "Mid",
-  "openings": 50,
-  "talent_supply_index": 0.65,
-  "salary_samples_inr_lpa": [6, 8, 10, 12],
-  "channels": {
-    "LinkedIn": 0.8,
-    "GitHub": 0.7,
-    "Kaggle": 0.6,
-    "Referrals": 0.5
-  }
-}
-,
+      "role": "AI/ML Intern",
+      "location": "Remote / Hybrid",
+      "seniority": "Mid",
+      "openings": 50,
+      "talent_supply_index": 0.65,
+      "salary_samples_inr_lpa": [6, 8, 10, 12],
+      "channels": {
+        "LinkedIn": 0.8,
+        "GitHub": 0.7,
+        "Kaggle": 0.6,
+        "Referrals": 0.5
+      }
+    },
     {
       "role": "Backend Engineer",
       "location": "Hyderabad, IN",
@@ -23,7 +22,12 @@
       "openings": 80,
       "talent_supply_index": 0.69,
       "salary_samples_inr_lpa": [17, 20, 23, 24, 22],
-      "channels": { "LinkedIn": 0.72, "GitHub": 0.64, "Referrals": 0.55, "HackerRank": 0.4 }
+      "channels": {
+        "LinkedIn": 0.72,
+        "GitHub": 0.64,
+        "Referrals": 0.55,
+        "HackerRank": 0.4
+      }
     },
     {
       "role": "Backend Engineer",
@@ -32,7 +36,12 @@
       "openings": 45,
       "talent_supply_index": 0.63,
       "salary_samples_inr_lpa": [30, 34, 32, 36, 38],
-      "channels": { "LinkedIn": 0.71, "GitHub": 0.7, "Referrals": 0.6, "StackOverflow": 0.52 }
+      "channels": {
+        "LinkedIn": 0.71,
+        "GitHub": 0.7,
+        "Referrals": 0.6,
+        "StackOverflow": 0.52
+      }
     },
     {
       "role": "Frontend Engineer",
@@ -41,7 +50,12 @@
       "openings": 95,
       "talent_supply_index": 0.75,
       "salary_samples_inr_lpa": [16, 18, 20, 22, 24],
-      "channels": { "LinkedIn": 0.73, "Dribbble": 0.58, "GitHub": 0.55, "Referrals": 0.5 }
+      "channels": {
+        "LinkedIn": 0.73,
+        "Dribbble": 0.58,
+        "GitHub": 0.55,
+        "Referrals": 0.5
+      }
     }
   ]
 }

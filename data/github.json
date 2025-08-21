@@ -1,79 +1,79 @@
 [
   {
     "person_id": "CAND001",
-    "username": "alice-code",
-    "repos": 10,
-    "stars": 35,
-    "top_languages": ["Python", "JavaScript"],
-    "recent_activity": ["commit: Improved churn prediction model", "PR: API optimization"]
+    "username": "kvj-harsha",
+    "repos": 37,
+    "stars": 22,
+    "top_languages": ["Python", "JavaScript", "C++", "TypeScript"],
+    "recent_activity": ["commit: feat: add candidate online activity tracking", "PR: update: IIITR orders"]
   },
   {
     "person_id": "CAND002",
-    "username": "ravi-ai",
+    "username": "arjun",
     "repos": 8,
     "stars": 42,
     "top_languages": ["Python", "TensorFlow"],
     "recent_activity": ["commit: Added sentiment analysis module"]
-  },
-  {
+    },
+    {
     "person_id": "CAND003",
-    "username": "maria-sec",
+    "username": "priya",
     "repos": 5,
     "stars": 12,
     "top_languages": ["Python", "Java"],
     "recent_activity": ["commit: Added penetration testing toolkit"]
-  },
-  {
+    },
+    {
     "person_id": "CAND004",
-    "username": "david-robotics",
+    "username": "rahul",
     "repos": 15,
     "stars": 85,
     "top_languages": ["C++", "Python"],
     "recent_activity": ["commit: ROS navigation module"]
-  },
-  {
+    },
+    {
     "person_id": "CAND005",
-    "username": null,
+    "username": "ananya",
     "repos": 0,
     "stars": 0,
     "top_languages": [],
     "recent_activity": []
-  },
-  {
+    },
+    {
     "person_id": "CAND006",
-    "username": "liam-cloud",
+    "username": "vivek",
     "repos": 7,
     "stars": 20,
     "top_languages": ["Python", "YAML"],
     "recent_activity": ["commit: Added Kubernetes config files"]
-  },
-  {
+    },
+    {
     "person_id": "CAND007",
-    "username": "chenwei-cv",
+    "username": "sneha",
     "repos": 9,
     "stars": 30,
     "top_languages": ["Python", "C++"],
     "recent_activity": ["commit: MobileNet optimization for edge devices"]
-  },
-  {
+    },
+    {
     "person_id": "CAND008",
-    "username": "elena-nlp",
+    "username": "amit",
     "repos": 12,
     "stars": 90,
     "top_languages": ["Python", "PyTorch"],
     "recent_activity": ["commit: Added multilingual transformer models"]
-  },
-  {
+    },
+    {
     "person_id": "CAND009",
-    "username": null,
+    "username": "deepa",
     "repos": 0,
     "stars": 0,
     "top_languages": [],
     "recent_activity": []
-  },
-  {
+    },
+    {
     "person_id": "CAND010",
-    "username": "hannah-ds",
+    "username": "manish",
     "repos": 6,
     "stars": 25,
     "top_languages": ["Python", "R"],
