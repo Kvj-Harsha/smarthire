@@ -26,6 +26,12 @@ An AI-powered pipeline for **candidate profiling**, **job matching**, and **mark
 
 ---
 
+## System Architecture
+
+<img width="7176" height="4916" alt="diagram (8)" src="https://github.com/user-attachments/assets/3357cced-46b8-41c1-9764-4ca837dd5b38" />
+
+---
+
 ### Project Structure
 ```
 .
