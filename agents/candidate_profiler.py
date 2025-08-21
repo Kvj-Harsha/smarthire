@@ -161,6 +161,11 @@ class CandidateProfilerAI:
             "work_history": work_history,
             "skills_analysis": skills_report,
             "projects": resume.get("projects", []),
+            "online_activity": {
+                "linkedin": linkedin or {},
+                "github": github or {},
+                "leetcode": leetcode or {}
+            },
             "career_summary": career_summary,
             "ai_job_comparison": ai_job_comparison,  # NEW
             "ai_insights": ai_insights,
