@@ -81,7 +81,7 @@
       },
       {
         "skill": "SQL",
-        "confidence": 0.6
+        "confidence": 0.67
       },
       {
         "skill": "JavaScript",
@@ -117,7 +117,7 @@
       }
     ],
     "research_publications": [],
-    "career_summary": "Here is a 2-3 recruiter-style sentence summary:\n\nHighly motivated software engineer with 2+ years of experience at TechCorp Inc., where I developed scalable backend services in Python and Django, and optimized SQL queries to improve API response times. I also built a machine learning pipeline using Scikit-learn for customer churn prediction, demonstrating my expertise in both software development and data science. With a strong foundation in Python, Pandas, and SQL, I am excited to leverage my skills and experience to drive success in a new role.",
+    "career_summary": "Here is a 2-3 sentence recruiter-style summary of the candidate's career progression, projects, and work history:\n\nHighly motivated software engineer with 2+ years of experience at TechCorp Inc., where I developed scalable backend services in Python and Django, and optimized SQL queries to improve API response times. I also built a machine learning pipeline using Scikit-learn for predicting customer churn, demonstrating my expertise in both software development and data science. With a strong foundation in Python, Pandas, and SQL, I am well-equipped to drive technical innovation and growth in my next role.",
     "online_activity": {
       "linkedin": {
         "person_id": "CAND001",
@@ -168,7 +168,7 @@
       }
     },
     "job_info": {},
-    "ai_insights": "Based on the provided data, here's an analysis of candidate strengths, risks, and potential role fit:\n\n**Strengths:**\n\n1. **Technical skills**: Alice has a strong foundation in programming languages such as Python, JavaScript, and SQL. She also has experience with Django, Machine Learning, and Scikit-learn.\n2. **Development experience**: With 2 years of experience as a Software Engineer at TechCorp Inc., Alice has hands-on experience in developing scalable backend services, optimizing SQL queries, and improving API response times.\n3. **Problem-solving skills**: Her LeetCode profile shows that she has solved 280 problems, indicating strong problem-solving skills, particularly in Dynamic Programming, Arrays, and Graphs.\n4. **Open-source contributions**: Alice has 10 repositories on GitHub, with 35 stars, and recent activity in improving a churn prediction model and optimizing APIs.\n\n**Risks:**\n\n1. **Limited work experience**: With only 2 years of work experience, Alice may not have the level of maturity or depth of experience that some organizations might require.\n2. **No research publications**: The absence of research publications may indicate a lack of involvement in research-oriented projects or limited expertise in a specific domain.\n3. **Overemphasis on a single domain**: Alice's experience and skills seem to be concentrated in backend development, Machine Learning, and Python. This might limit her flexibility in exploring other areas.\n\n**Potential Role Fit:**\n\nBased on Alice's strengths and experience, she might be a good fit for roles such as:\n\n1. **Backend Software Engineer**: With her experience in developing scalable backend services and optimizing SQL queries, Alice could excel in a backend engineering role.\n2. **Machine Learning Engineer**: Her experience with Machine Learning, Scikit-learn, and Python makes her a suitable candidate for a Machine Learning Engineer position.\n3. **Technical Lead**: With her problem-solving skills, experience, and open-source contributions, Alice could be considered for a Technical Lead role, where she can guide teams and contribute to technical decision-making.\n\n**Job Description Requirements:**\n\nTo better assess Alice's fit for a specific role, a job description should include requirements such as:\n\n1. **Technical skills**: Specify the required programming languages, frameworks, and technologies.\n2. **Experience**: Indicate the minimum years of experience required for the role.\n3. **Soft skills**: List the essential soft skills, such as communication, teamwork, or leadership.\n\nBy providing a detailed job description, you can better evaluate Alice's strengths, risks, and potential role fit."
+    "ai_insights": "Based on the provided data, here's an analysis of candidate strengths, risks, and potential role fit:\n\n**Strengths:**\n\n1. **Technical Skills:** Alice has a strong foundation in programming languages such as Python, JavaScript, and SQL. She is also proficient in Django, Machine Learning, and has experience with Scikit-learn.\n2. **Development Experience:** With 2 years of experience as a Software Engineer at TechCorp Inc., Alice has hands-on experience in developing scalable backend services, optimizing SQL queries, and improving API response times.\n3. **Problem-Solving:** Her LeetCode profile shows that she has solved 280 problems, indicating strong problem-solving skills, particularly in Dynamic Programming, Arrays, and Graphs.\n4. **Projects:** Alice has worked on a Customer Churn Prediction project, demonstrating her ability to build Machine Learning pipelines using Scikit-learn.\n5. **Education:** She holds a B.Tech in Computer Science from Stanford University, which is a reputable institution.\n\n**Risks:**\n\n1. **Limited Work Experience:** With only 2 years of work experience, Alice may not have the level of expertise or leadership skills that some organizations might require.\n2. **No Research Publications:** The absence of research publications may indicate a lack of involvement in research-oriented projects or limited expertise in academic research.\n3. **Potential Overemphasis on Technical Skills:** While Alice's technical skills are impressive, there is limited information about her soft skills, such as communication, teamwork, or leadership abilities.\n\n**Potential Role Fit:**\n\nBased on the provided data, Alice seems to be a strong fit for roles that involve:\n\n1. **Backend Development:** Her experience with Python, Django, and SQL makes her a suitable candidate for backend development positions.\n2. **Machine Learning:** Alice's experience with Scikit-learn and her interest in Machine Learning make her a potential fit for roles that involve building predictive models.\n3. **Technical Problem-Solving:** Her strong problem-solving skills, as demonstrated by her LeetCode profile, make her a suitable candidate for roles that involve technical problem-solving.\n\nHowever, Alice may not be the best fit for roles that require:\n\n1. **Leadership or Management:** With limited work experience, Alice may not have the level of leadership or management expertise that some organizations require.\n2. **Extensive Research Experience:** The absence of research publications may make her less suitable for roles that require extensive research experience.\n\n**Recommendations:**\n\n1. **Conduct a Technical Interview:** Assess Alice's technical skills through a coding challenge or a technical interview to gauge her problem-solving abilities.\n2. **Behavioral Interview:** Conduct a behavioral interview to evaluate her soft skills, such as communication, teamwork, and leadership abilities.\n3. **Project-Based Assessment:** Provide Alice with a project-based assessment to evaluate her ability to build a Machine Learning pipeline or develop a backend service."
   },
   "assessment": [
     {
@@ -188,7 +188,7 @@
         }
       ],
       "options": {
-        "time_limit_min": 15,
+        "time_limit_min": 10,
         "languages_allowed": [
           "Python",
           "Java"
@@ -200,15 +200,15 @@
       "difficulty": "Medium",
       "description": "Given a graph represented as an adjacency list, perform a depth-first search (DFS) traversal and return the visited nodes.",
       "instructions": "Implement a function to solve the problem.",
-      "constraints": "The graph may contain cycles, and the number of nodes can be up to 10^3.",
+      "constraints": "The graph may contain cycles, 0 <= number of nodes <= 10^3",
       "examples": [
         {
-          "input": "graph = {0: [1, 2], 1: [0, 3], 2: [0, 4], 3: [1], 4: [2]}",
-          "output": "[0, 1, 3, 2, 4]"
+          "input": "graph = {0: [1,2], 1: [2], 2: [0,3], 3: [3]}",
+          "output": "[0, 1, 2, 3]"
         }
       ],
       "options": {
-        "time_limit_min": 20,
+        "time_limit_min": 15,
         "languages_allowed": [
           "Python",
           "C++"
@@ -216,15 +216,15 @@
       }
     },
     {
-      "title": "Customer Churn Prediction",
+      "title": "Predicting Customer Churn",
       "difficulty": "Hard",
-      "description": "Develop a binary classification model to predict customer churn based on a given dataset. The dataset contains features such as customer demographics, usage patterns, and billing information.",
-      "instructions": "Implement a function to train a Scikit-learn model and evaluate its performance using metrics such as accuracy, precision, and recall.",
-      "constraints": "The dataset may contain up to 10^5 samples, and the number of features can be up to 50.",
+      "description": "Develop a machine learning model to predict customer churn based on a given dataset. The dataset contains features such as customer age, usage patterns, and service details.",
+      "instructions": "Train a model using Scikit-learn and evaluate its performance.",
+      "constraints": "The dataset may contain missing values, 0 < number of samples <= 10^4",
       "examples": [
         {
-          "input": "X_train = [[1, 2], [3, 4]], y_train = [0, 1], X_test = [[5, 6]]",
-          "output": "{'accuracy': 0.9, 'precision': 0.8, 'recall': 0.7}"
+          "input": "dataset = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]",
+          "output": "{\"accuracy\": 0.8, \"precision\": 0.7, \"recall\": 0.9}"
         }
       ],
       "options": {
@@ -238,9 +238,9 @@
   "behavioral_analysis": {
     "person_id": "CAND001",
     "soft_skill_analysis": {
-      "collaboration": "The candidate demonstrates strong collaboration skills, as evidenced by their experience working with a team of 5 engineers and facilitating communication between backend and frontend teams.",
-      "problem_solving": "The candidate shows ability to solve complex problems, enjoying brainstorming solutions, which indicates a proactive and innovative approach to problem-solving.",
-      "communication": "Effective communication skills are highlighted through their role in facilitating communication between teams, resolving blockers, and ensuring deadlines were met."
+      "collaboration": "The candidate demonstrates strong collaboration skills, having worked with a team of 5 engineers and facilitated communication between backend and frontend teams.",
+      "problem_solving": "The candidate shows ability to tackle complex problems, enjoying brainstorming solutions and mentoring junior members.",
+      "communication": "The candidate effectively communicates between teams, resolving blockers and ensuring deadlines are met."
     },
     "keywords": [
       "collaboration",
@@ -250,16 +250,15 @@
       "mentoring"
     ],
     "themes": [
-      "team collaboration",
-      "complex problem-solving",
-      "effective communication",
-      "leadership"
+      "teamwork",
+      "leadership",
+      "problem-solving"
     ],
-    "high_level_insights": "The candidate exhibits strong behavioral strengths in collaboration, problem-solving, and communication, with a demonstrated ability to work effectively in teams, lead, and mentor junior members.",
+    "high_level_insights": "The candidate exhibits strong behavioral strengths in collaboration, problem-solving, and communication, with a demonstrated ability to work effectively in a team environment and mentor junior members.",
     "bias_mitigation_protocol": {
       "guidelines": [
-        "Consider a diverse set of examples from the candidate's experiences to ensure a comprehensive understanding of their skills.",
-        "Evaluate the candidate's skills based on specific, measurable outcomes and behaviors rather than general impressions."
+        "Evaluate candidates based on specific examples from their experience.",
+        "Use a standardized set of criteria to assess soft skills across all candidates."
       ]
     }
   },
@@ -304,13 +303,8 @@
     ],
     "ai_summary": {
       "job_id": "JD001",
-      "summary": "The market for AI/ML Interns shows a moderate level of competition. The compensation benchmarks indicate that the 25th percentile is $6.0, the median is $9.0, and the 75th percentile is $10.0 per annum. There are 50 total openings, primarily for Remote/Hybrid positions. The average Talent Supply Index is 0.65, indicating a relatively balanced supply and demand for talent.",
-      "recommendations": [
-        "To remain competitive in terms of pay, consider offering a salary within the range of $9.0 to $10.0 per annum, as this aligns with the median to 75th percentile of market benchmarks.",
-        "Given the hotspot location is Remote/Hybrid with 50 openings, prioritize sourcing candidates who are open to remote or hybrid work arrangements.",
-        "Utilize LinkedIn (effectiveness: 0.8) as a primary sourcing channel, followed by GitHub (effectiveness: 0.7) and Kaggle (effectiveness: 0.6), to maximize reach and effectiveness in finding suitable candidates.",
-        "Consider leveraging referrals (effectiveness: 0.5) as a supplementary channel to access passive candidates who may not be actively job searching on traditional platforms."
-      ]
+      "summary": "",
+      "recommendations": []
     },
     "updated_at": "2025-08-10"
   }

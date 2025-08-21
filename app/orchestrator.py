@@ -35,7 +35,7 @@ def run_orch(person_id: str, job_id: str):
 
     # --- Candidate Profiler ---
     profiler = CandidateProfilerAI(use_ai=True)
-    tir = profiler.generate_tir(person_id)
+    tir = profiler.generate_tir(person_id=person_id, job_id=job_id)
 
     # --- Assessment Designer ---
     designer = AssessmentDesigner(
@@ -43,7 +43,7 @@ def run_orch(person_id: str, job_id: str):
         resume_data_path=os.path.join(DATA_DIR, "resume.json"),
         jd_data_path=os.path.join(DATA_DIR, "jd.json")
     )
-    assessment = designer.generate_assessment(person_id, job_id)
+    assessment = designer.generate_assessment(person_id=person_id, job_id=job_id)
 
     # --- Behavioral Analyzer ---
     behavior_agent = BehavioralAnalyzer(

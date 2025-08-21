@@ -5,6 +5,7 @@ from collections import defaultdict
 from groq import Groq
 from dotenv import load_dotenv
 
+# Load environment variables from .env
 load_dotenv()
 
 class CandidateProfilerAI:
@@ -22,6 +23,7 @@ class CandidateProfilerAI:
         self.jd_data = self._load_json("jd.json")  # Job descriptions
         self.use_ai = use_ai
 
+        # Initialize Groq AI client
         if use_ai:
             api_key = os.getenv("GROQ_API_KEY")
             if not api_key:
@@ -71,7 +73,7 @@ class CandidateProfilerAI:
             return {"error": f"No resume data found for {person_id}"}
 
         # --- Build Evidence Map ---
-        evidence_map = defaultdict(lambda: {"resume":0,"linkedin":0,"github":0,"leetcode":0})
+        evidence_map = defaultdict(lambda: {"resume": 0, "linkedin": 0, "github": 0, "leetcode": 0})
         for s in resume.get("skills", []):
             evidence_map[s]["resume"] += 1
         if linkedin:
@@ -88,8 +90,8 @@ class CandidateProfilerAI:
         skills_report = []
         for skill, ev in evidence_map.items():
             confidence = self._ai_analyze(
-                f"""Rate proficiency confidence (0-1) for skill '{skill}' 
-                given evidence {ev}. Only output a number.""",
+                f"Rate proficiency confidence (0-1) for skill '{skill}' "
+                f"given evidence {ev}. Only output a number.",
                 temp=0
             )
             try:
@@ -104,19 +106,31 @@ class CandidateProfilerAI:
             work_history += linkedin["jobs"]
         yoe = resume.get("YOE", None)
 
-        # --- Job Skills Match (if job provided) ---
-        match_score = None
+        # --- AI-Based Job Match Analysis ---
+        ai_job_comparison = None
         if job:
-            required_skills = job.get("required_skills", [])
-            matched_skills = [s["skill"] for s in skills_report if s["skill"] in required_skills]
-            match_score = round(len(matched_skills)/len(required_skills)*100, 2) if required_skills else 0
+            ai_job_comparison = self._ai_analyze(
+                f"""
+                Compare candidate's skills and experience with the job description.
+                Candidate Skills: {json.dumps(skills_report, indent=2)}
+                Candidate Work History: {json.dumps(work_history, indent=2)}
+                Candidate Projects: {json.dumps(resume.get("projects", []), indent=2)}
+                Job Description: {json.dumps(job, indent=2)}
+                Provide:
+                1. Overall match percentage
+                2. Key strengths
+                3. Gaps to be addressed
+                4. Role fit analysis in 2-3 sentences.
+                """,
+                temp=0.4
+            )
 
         # --- Career Summary ---
         career_summary = self._ai_analyze(
-            f"""Summarize the candidate's career progression, projects, and work history in 2-3 recruiter-style sentences.
-            Work History: {json.dumps(work_history, indent=2)}
-            Projects: {json.dumps(resume.get("projects", []), indent=2)}
-            YOE: {yoe}""",
+            f"Summarize candidate's career in 2-3 recruiter-style sentences.\n"
+            f"Work History: {json.dumps(work_history, indent=2)}\n"
+            f"Projects: {json.dumps(resume.get('projects', []), indent=2)}\n"
+            f"YOE: {yoe}",
             temp=0.3
         )
 
@@ -146,17 +160,11 @@ class CandidateProfilerAI:
             "YOE": yoe,
             "work_history": work_history,
             "skills_analysis": skills_report,
-            "skills_match_score": match_score,
             "projects": resume.get("projects", []),
-            "research_publications": resume.get("research_publications", []),
             "career_summary": career_summary,
-            "online_activity": {
-                "linkedin": linkedin or {},
-                "github": github or {},
-                "leetcode": leetcode or {}
-            },
-            "job_info": job,
-            "ai_insights": ai_insights
+            "ai_job_comparison": ai_job_comparison,  # NEW
+            "ai_insights": ai_insights,
+            "job_info": job
         }
 
         # Save JSON
